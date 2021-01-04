@@ -25,3 +25,7 @@
 #spell-duration {
   margin: 0;
 }
+
+hr {
+  border: 1px solid white;
+}

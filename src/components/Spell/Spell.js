@@ -21,7 +21,7 @@ const Spell = ({spellInfo}) => {
 
   return (
     <>
-    <h3 id="spell-name">{spellInfo.name}</h3>
+    <h2 id="spell-name">{spellInfo.name}</h2>
     <div id="spell-info">
       <p id="spell-level">{spellLevel} {spellRitual}</p>
       <p id="spell-casting-time">Casting Time: {spellInfo.casting_time}</p>
