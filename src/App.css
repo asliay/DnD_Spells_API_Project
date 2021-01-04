@@ -1,14 +1,22 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
+  background-color: teal;
+  color: white;
 }
 
 h1{
+  background-color: teal;
+  color: white;
   text-align: center;
+  margin:0;
+  padding: 10px;
 }
 
 #top {
+  color: white;
   width: 100%;
+  padding: 10px;
   display: flex;
   height: fit-content;
   justify-content: center;

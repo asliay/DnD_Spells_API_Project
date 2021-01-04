@@ -1,3 +1,27 @@
 #spell-level {
   font-style: italic;
+  margin: 0;
+}
+#spell-info {
+  font-size: 13px;
+}
+#top {
+  background-color: teal;
+  margin: 0;
+}
+
+#spell-casting-time {
+  margin: 0;
+}
+
+#spell-range {
+  margin: 0;  
+}
+
+#spell-components {
+  margin: 0;
+}
+
+#spell-duration {
+  margin: 0;
 }

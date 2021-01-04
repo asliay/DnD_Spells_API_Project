@@ -1,3 +1,5 @@
+import "./SpellFilterForm/SpellFilterForm";
+
 const SpellFilterForm = ({ onUserInput }) => {
 
   const handleFilterInput = (event) => {
@@ -7,12 +9,13 @@ const SpellFilterForm = ({ onUserInput }) => {
 
   return (
     <>
-      <span>Spells Search: </span>
-      <input 
+      <span>Search Spells: </span>
+      <input id="spell-search" 
         type="text" 
-        placeholder="search..."
+        placeholder="e.g. Guiding Bolt"
         onChange={handleFilterInput}
       />
+    
     </>
   )
 };
