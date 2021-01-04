@@ -1,4 +1,4 @@
-import "./SpellFilterForm/SpellFilterForm";
+import "./SpellFilterForm.css";
 
 const SpellFilterForm = ({ onUserInput }) => {
 
