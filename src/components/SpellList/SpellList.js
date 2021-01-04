@@ -1,5 +1,5 @@
-import Spell from "./Spell";
-
+import Spell from "../Spell/Spell";
+import "./SpellList.css"
 
 const SpellList = ({spells}) => {
 

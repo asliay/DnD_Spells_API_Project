@@ -1,7 +1,7 @@
 import {useState, useEffect} from "react";
 
 import SpellFilterForm from "./components/SpellFilterForm";
-import SpellList from "./components/SpellList";
+import SpellList from "./components/SpellList/SpellList";
 import './App.css';
 
 function App() {
@@ -76,15 +76,12 @@ function App() {
     .then((data)=>{
       let indexes = data.results.map(a => a.index);
       setSpellIndexes(indexes);
-      console.log(indexes)
     })
   },[]);
 
   useEffect(()=>{ 
     fetchSpellsInfo(spellIndexes);
   },[spellIndexes])
-
-  console.log(spells)
 
   const handleUserFilter = (userInput) => {
     const searchedSpells = spells.filter((spell) => {
@@ -95,10 +92,13 @@ function App() {
 
 
   return (
-    <>
-      <SpellFilterForm onUserInput={handleUserFilter}/>
+    <main>
+      <h1>Dungeons and Dragons Spell Book</h1>
+      <div id="top">
+        <SpellFilterForm onUserInput={handleUserFilter}/>
+      </div>
       <SpellList spells = {filteredSpells} />
-    </>
+    </main>
   )
 }
 
