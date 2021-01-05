@@ -1,4 +1,10 @@
 #spell-search {
   margin-left: 5px;
   color: teal;
+  border: none;
+  outline: 2px solid teal;
+}
+
+::placeholder {
+  color: teal;
 }

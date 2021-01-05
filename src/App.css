@@ -6,16 +6,18 @@ body {
 }
 
 h1{
+  width: 100%;
   text-transform: uppercase;
-  background-color: teal;
-  color: white;
+  background-color: white;
+  color: teal;
   text-align: center;
   margin:0;
   padding: 10px;
 }
 
 #top {
-  color: white;
+  color: teal;
+  background-color: white;
   width: 100%;
   padding: 10px;
   display: flex;
