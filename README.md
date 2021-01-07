@@ -1,6 +1,6 @@
 # D&D Spellbook API project
 
-
+![screenshot](src/assets/spells_screenshot.png)
 
 ## Scripts
 
