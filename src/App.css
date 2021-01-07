@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,533&family=Raleway&display=swap');
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Raleway;
   margin: auto;
   background-color: teal;
   color: white;
 }
 
 h1{
+  font-family: Lora;
   width: 100%;
   text-transform: uppercase;
   background-color: white;
