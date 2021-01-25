@@ -1,5 +1,7 @@
 # D&D Spellbook API project
 
+Front end Javascript app - using 5th edition Dungeons and Dragons SRD to create a filterable spell list.
+
 ![screenshot](src/assets/spells_screenshot.png)
 
 ## Scripts
