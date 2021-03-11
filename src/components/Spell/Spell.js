@@ -9,7 +9,8 @@ const Spell = ({spellInfo}) => {
     <>
     <h2 id="spell-name">{spellInfo.name}</h2>
     <div id="spell-info">
-      <p id="spell-level">
+      <p id="spell-level"> 
+      {/* Ternary operator checking spell level and rendering appropriate info and ritual boolean (level 0 spells are referred to as cantrips but just 0 in the API)*/ }
         {spellInfo.level > 0 ? `Level ${spellInfo.level} ${spellInfo.school['name']}` : `${spellInfo.school['name']} Cantrip`} {spellInfo.ritual ? ` (ritual)` : null}
         </p>
       <p id="spell-casting-time">Casting Time: {spellInfo.casting_time}</p>
